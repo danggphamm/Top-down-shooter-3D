@@ -4,38 +4,41 @@ using UnityEngine;
 
 public class DragToMove : MonoBehaviour
 {
+    public bool collidingWall = false;
+
+    public GameObject characterGraphic;
+
+    public GameObject wallDetector;
+    
+    // Speed
+    public float speed;
+
     // Check if mouse clicked
     bool clicked = false;
 
     // Check if game is over/lost
     bool gameOver = false;
 
-    public bool collidingWall = false;
-
-    public GameObject characterGraphic;
-
     Vector3 lastPos = Vector3.zero;
-
     Vector3 lastDir = Vector3.zero;
 
-    public GameObject wallDetector;
-
-    // Speed
-    public float speed;
 
     // The coordinate where the mouse clicked
     Vector3 mouseInitialPos = Vector3.zero;
     Vector3 dir = Vector3.zero;
 
+    GameObject gameManager;
     // Start is called before the first frame update
     void Start()
     {
-
+        gameManager = GameObject.Find("GameManager");
     }
 
     // Update is called once per frame
     void Update()
     {
+        gameOver = gameManager.GetComponent<GameManager>().gameOver;
+
         if (!gameOver)
         {
             if (Input.GetMouseButton(0))
