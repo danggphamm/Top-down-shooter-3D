@@ -73,7 +73,7 @@ public class DragToMove : MonoBehaviour
                 else
                 {
                     characterGraphic.transform.position = lastPos;
-                    characterGraphic.transform.position -= twoDdirection * speed * Time.deltaTime;
+                    characterGraphic.transform.position -= twoDdirection * speed * Time.deltaTime*5;
                 }
             }
             else
