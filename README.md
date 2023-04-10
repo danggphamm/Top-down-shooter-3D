@@ -22,6 +22,7 @@ Enemies:
 
   Third type:
   ![Screenshot (16)](https://user-images.githubusercontent.com/55885808/230813592-b280f920-fe60-4f17-bef2-7699b0ac972d.png)
+  ![Screenshot (12)](https://user-images.githubusercontent.com/55885808/230813963-df64d20e-c08d-4203-af9b-f1b2e0073837.png)
   - Low hp.
   - Just simply attack.
   - Explode when destroyed and release attacks in 360 degree.
@@ -31,7 +32,7 @@ Enemies:
   - High hp.
   - Strong and big attack.
   - Has shields to block attacks.
-  - SHields can also release attacks.
+  - Shields can also release attacks.
 
 Buffs:
   First type:
