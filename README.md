@@ -46,7 +46,7 @@ Buffs:
   
   Third type:
   ![Screenshot (9)](https://user-images.githubusercontent.com/55885808/230813715-44bbc5aa-a6ef-4889-8aa5-e24c461938c9.png)
-  - Able to shoot 2 bullets.
+  - Enable the ability to shoot 2 bullets at a time.
   
  Losing screen:
  ![Screenshot (17)](https://user-images.githubusercontent.com/55885808/230813820-f5a38432-09fa-419a-92b1-cee914cfbc97.png)
