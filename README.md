@@ -42,6 +42,7 @@ Buffs:
   Second type:
   ![Screenshot (8)](https://user-images.githubusercontent.com/55885808/230813732-d1ad17bd-16d0-42f8-919e-6ea0935ee7c0.png)
   - Enable a stronger and faster weapon.
+  - 30 bullets each time receive one (Not stacking.)
   
   Third type:
   ![Screenshot (9)](https://user-images.githubusercontent.com/55885808/230813715-44bbc5aa-a6ef-4889-8aa5-e24c461938c9.png)
