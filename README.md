@@ -3,6 +3,7 @@ One game a week challenge - making/recreating one game each week during free tim
 Started on 3/31/2023
 Finished on 4/9/2023
 Actually a "space shooter" game.
+Drag and hold to move.
 Press space to shoot.
 
 Starting screen:
